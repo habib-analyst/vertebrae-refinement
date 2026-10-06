@@ -13,4 +13,6 @@ The output audit verified original CT shape and affine, valid labels, consistenc
 
 Seven tests cover anisotropic spacing, diagonal connections, preservation of nearby and large fragments, unambiguous and ambiguous contact, empty input, invalid labels, idempotence on fixtures, output geometry, and consistency of binary masks. These are software checks, not measures of segmentation accuracy.
 
+All seven tests passed locally on Windows with Python 3.14. The published verification utility also passed against both full-sized output volumes. Hosted GitHub Actions execution has not yet completed successfully. Additional local Python 3.11 and 3.12 checks were blocked by Windows Application Control before tests could execute; compatibility on those versions remains unverified.
+
 There are no vertebra ground-truth masks for these cases. No Dice scores, benchmark ranking, statistical significance, or clinical benefit is reported. Boundary and nearby-label errors remain. The experiment has not established performance across other scans, acquisition protocols, or pathologies.

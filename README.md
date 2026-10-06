@@ -1,6 +1,6 @@
 # Vertebrae Refinement
 
-[![Tests](https://github.com/habib-analyst/vertebrae-refinement/actions/workflows/tests.yml/badge.svg)](https://github.com/habib-analyst/vertebrae-refinement/actions/workflows/tests.yml)
+[![Local tests: 7 passed](https://img.shields.io/badge/local_tests-7_passed-28754a)](docs/results.md)
 
 Automatic postprocessing for vertebra segmentation masks: identify small components far from their assigned vertebra, then remove them or assign them to a supported neighboring label.
 
@@ -32,7 +32,7 @@ Nearby fragments and substantial secondary components remain intact. Contact dec
 
 ## Run locally
 
-Use Python 3.11 or later:
+The recorded local checks used Python 3.14. Dependencies support Python 3.11 or later; validation on the other versions is pending.
 
 ```bash
 python -m venv .venv
@@ -67,6 +67,8 @@ To run the tests:
 python -m pip install -r requirements-dev.txt
 python -m pytest tests -q
 ```
+
+The [GitHub Actions workflow](https://github.com/habib-analyst/vertebrae-refinement/actions/workflows/tests.yml) is included. A successful hosted run has not yet been recorded; the test evidence reported here comes from local execution.
 
 To verify refined outputs against the CTs, baseline masks, and change reports:
 
