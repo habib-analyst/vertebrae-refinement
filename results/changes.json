@@ -1,0 +1,162 @@
+[
+  {
+    "case": "BDMAP_00000006",
+    "shape": [
+      512,
+      512,
+      391
+    ],
+    "parameters": {
+      "max_gap_mm": 50.0,
+      "max_fraction": 0.1
+    },
+    "removed_voxels": 480,
+    "relabelled_voxels": 0,
+    "removed_volume_mm3": 732.421875,
+    "components_changed": [
+      {
+        "label": 22,
+        "name": "C3",
+        "target_label": 0,
+        "changed_voxels": 28,
+        "removed_voxels": 28,
+        "relabelled_voxels": 0,
+        "gap_mm": 589.855008170705
+      },
+      {
+        "label": 23,
+        "name": "C2",
+        "target_label": 0,
+        "changed_voxels": 12,
+        "removed_voxels": 12,
+        "relabelled_voxels": 0,
+        "gap_mm": 605.3898940584695
+      },
+      {
+        "label": 24,
+        "name": "C1",
+        "target_label": 0,
+        "changed_voxels": 440,
+        "removed_voxels": 440,
+        "relabelled_voxels": 0,
+        "gap_mm": 624.7720091974052
+      }
+    ]
+  },
+  {
+    "case": "BDMAP_00000031",
+    "shape": [
+      512,
+      512,
+      1394
+    ],
+    "parameters": {
+      "max_gap_mm": 50.0,
+      "max_fraction": 0.1
+    },
+    "removed_voxels": 711,
+    "relabelled_voxels": 187,
+    "removed_volume_mm3": 415.8334462875391,
+    "components_changed": [
+      {
+        "label": 2,
+        "name": "L4",
+        "target_label": 10,
+        "changed_voxels": 14,
+        "removed_voxels": 0,
+        "relabelled_voxels": 14,
+        "gap_mm": 183.91933078576946
+      },
+      {
+        "label": 3,
+        "name": "L3",
+        "target_label": 9,
+        "changed_voxels": 26,
+        "removed_voxels": 0,
+        "relabelled_voxels": 26,
+        "gap_mm": 126.66226976894755
+      },
+      {
+        "label": 3,
+        "name": "L3",
+        "target_label": 9,
+        "changed_voxels": 8,
+        "removed_voxels": 0,
+        "relabelled_voxels": 8,
+        "gap_mm": 128.70347555787313
+      },
+      {
+        "label": 7,
+        "name": "T11",
+        "target_label": 0,
+        "changed_voxels": 173,
+        "removed_voxels": 173,
+        "relabelled_voxels": 0,
+        "gap_mm": 544.7550900791961
+      },
+      {
+        "label": 8,
+        "name": "T10",
+        "target_label": 0,
+        "changed_voxels": 146,
+        "removed_voxels": 146,
+        "relabelled_voxels": 0,
+        "gap_mm": 501.9399647753579
+      },
+      {
+        "label": 18,
+        "name": "C7",
+        "target_label": 0,
+        "changed_voxels": 380,
+        "removed_voxels": 380,
+        "relabelled_voxels": 0,
+        "gap_mm": 202.26904360019626
+      },
+      {
+        "label": 18,
+        "name": "C7",
+        "target_label": 11,
+        "changed_voxels": 119,
+        "removed_voxels": 0,
+        "relabelled_voxels": 119,
+        "gap_mm": 176.0405516626956
+      },
+      {
+        "label": 18,
+        "name": "C7",
+        "target_label": 11,
+        "changed_voxels": 8,
+        "removed_voxels": 0,
+        "relabelled_voxels": 8,
+        "gap_mm": 171.79280931936418
+      },
+      {
+        "label": 19,
+        "name": "C6",
+        "target_label": 0,
+        "changed_voxels": 12,
+        "removed_voxels": 12,
+        "relabelled_voxels": 0,
+        "gap_mm": 766.2650890375631
+      },
+      {
+        "label": 19,
+        "name": "C6",
+        "target_label": 11,
+        "changed_voxels": 8,
+        "removed_voxels": 0,
+        "relabelled_voxels": 8,
+        "gap_mm": 194.48239326831822
+      },
+      {
+        "label": 19,
+        "name": "C6",
+        "target_label": 11,
+        "changed_voxels": 4,
+        "removed_voxels": 0,
+        "relabelled_voxels": 4,
+        "gap_mm": 196.56609010489015
+      }
+    ]
+  }
+]

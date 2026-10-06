@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.nii
+*.nii.gz
+*.pth
+*.pt
+*.zip
+*.tar.gz
+data/
+predictions_baseline/
+predictions_refined/
+review/
+.env
+.env.*
